@@ -20,6 +20,12 @@ cd klaire
 
 ### 2. Construire et démarrer les conteneurs
 
+Utilisez le fichier .env.exemple comme modele pour les variables d'environnement :
+
+```bash
+cp .env.exemple .env
+```
+
 Utilisez Docker Compose pour construire et démarrer les conteneurs :
 
 ```bash
